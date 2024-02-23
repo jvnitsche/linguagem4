@@ -15,6 +15,13 @@
     </properties>
     
     <dependencies>
+        <!-- depencias colocar aqui -->
+        <!-- não funciona o JSF sem essa dependencia do javax.faces-->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.faces</artifactId>
+            <version>2.3.9</version>
+        </dependency>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
